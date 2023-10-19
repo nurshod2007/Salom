@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .swiper {
+        width: 100%;
+        height: 60%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f6fcfa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 90%;
+        transition: 0.5s;
+      }
+      .sw {
+        text-align: center;
+        font-size: 18px;
+        background: #f6fcfa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100%;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="menu">
+          <div class="logo">
+            <img src="./img/Group 118.png" alt="" />
+            <p>HOTEL</p>
+          </div>
+          <div class="list">
+            <a href="#">Home</a>
+            <a href="#">Branch</a>
+            <a href="#">Search</a>
+            <a href="#">About Us</a>
+            <a href="#">Pages</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="mbtn">
+            <a href="#">Reservation</a>
+          </div>
+        </div>
+        <div class="himgbox">
+          <div class="textbox">
+            <h1>
+              Discover a hotel <br />
+              that defies a new <br />
+              dimension of luxury.
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and <br />
+              typesetting industry. Lorem Ipsum has been the industry's <br />
+              standard dummy.
+            </p>
+            <div class="abox">
+              <a href="">Get Started</a>
+              <div class="vidbox">
+                <div class="vbtn">
+                  <img src="img/Vector (10).png" alt="" class="vimg" />
+                </div>
+                <p>Watch video</p>
+              </div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img src="img/Ellipse 2.png" alt="" class="e2" />
+            <img src="img/Ellipse 14.png" alt="" class="e14" />
+            <img src="img/Ellipse 15.png" alt="" class="e15" />
+            <img
+              src="img/joel-filipe-S1Xl9Ag1PrQ-unsplash-removebg-preview 1.png"
+              alt=""
+              class="joel"
+            />
+            <div class="marketbox">
+              <div class="market">
+                <ul>
+                  <li>Market Static</li>
+                </ul>
+              </div>
+              <div class="course">
+                <p>
+                  Course <br />
+                  overview
+                </p>
+                <p>+15%</p>
+              </div>
+              <div class="line">
+                <img src="img/Vector 15.png" alt="" />
+                <img src="img/Ellipse 13.png" alt="" />
+              </div>
+              <div class="date">
+                <p>Jan</p>
+                <p>Feb</p>
+                <p>Mar</p>
+                <p>Apr</p>
+                <p>May</p>
+                <p>Jun</p>
+                <p>Jul</p>
+              </div>
+            </div>
+            <div class="payment">
+              <div class="pcart">
+                <img src="img/Vector (9).png" alt="" />
+              </div>
+              <h6>Payment</h6>
+              <p>on onternet</p>
+            </div>
+            <img src="img/Ellipse 17.png" alt="" class="e17" />
+            <img src="img/Ellipse 17.png" alt="" class="e18" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <div class="check">
+          <h2>Check Availability</h2>
+          <p>
+            It is a long established fact that a reader will be distracted
+            <br />
+            by the readable content of a page.
+          </p>
+          <div class="checkimgbox">
+            <div class="chimg">
+              <img src="img/Rectangle 84.png" alt="" class="rec" />
+              <img
+                src="img/ricardo-gomez-angel-m2M1N-hAZAU-unsplash-removebg-preview 1.png"
+                alt=""
+                class="ric"
+              />
+            </div>
+            <form action="">
+              <ion-icon name="calendar-outline" class="icon1"></ion-icon>
+              <ion-icon name="calendar-outline" class="icon2"></ion-icon>
+              <legend>CHECK-IN</legend>
+              <input type="text" placeholder="Thu, 21 Jul 2022" />
+              <legend>CHECK-OUT</legend>
+              <input type="text" placeholder="Fri, 22 Jul 2022" />
+              <legend>GUESTS:</legend>
+
+              <select name="" id="">
+                <option value="">1 Room</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+              <input type="submit" value="CHECK AVAILABILITY" class="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="room">
+          <h2>Our Most Populer Room</h2>
+          <p>
+            It is a long established fact that a reader will be distracted
+            <br />
+            by the readable content of a page.
+          </p>
+          <div class="roomcart">
+            <div class="cart c1">
+              <img src="img/sidekix-media-2NHFwqNlpoY-unsplash 1.png" alt="" />
+              <h4>Deluxe Contrast Room</h4>
+              <div class="info">
+                <p><img src="img/Group (2).png" alt="" /> 52sqm</p>
+                <p><img src="img/Group (3).png" alt="" /> 2 Bed</p>
+                <p><img src="img/Vector (11).png" alt="" /> 1 Bathroom</p>
+              </div>
+              <div class="price">
+                <p>$250 /</p>
+                <p>Night</p>
+              </div>
+            </div>
+            <div class="cart c2">
+              <img src="img/sidekix-media-g8tb9SXqZVQ-unsplash 1.png" alt="" />
+              <h4>Luxery Twin Room</h4>
+              <div class="info">
+                <p><img src="img/Group (2).png" alt="" /> 52sqm</p>
+                <p><img src="img/Group (3).png" alt="" /> 2 Bed</p>
+                <p><img src="img/Vector (11).png" alt="" /> 1 Bathroom</p>
+              </div>
+              <div class="price">
+                <p>$250 /</p>
+                <p>Night</p>
+              </div>
+            </div>
+            <div class="cart c3">
+              <img
+                src="img/point3d-commercial-imaging-ltd-kCSlhhC-Ch8-unsplash 1.png"
+                alt=""
+              />
+              <h4>Single Contrast Room</h4>
+              <div class="info">
+                <p><img src="img/Group (2).png" alt="" /> 52sqm</p>
+                <p><img src="img/Group (3).png" alt="" /> 2 Bed</p>
+                <p><img src="img/Vector (11).png" alt="" /> 1 Bathroom</p>
+              </div>
+              <div class="price">
+                <p>$250 /</p>
+                <p>Night</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hotel">
+          <p class="our">OUR SERVICES</p>
+          <h2>Hotel Facilities</h2>
+          <div class="hotelbox">
+            <div class="hotelcarts1">
+              <div class="hotelcart">
+                <h5>Pick up & Drop <img src="img/Group (4).png" alt="" /></h5>
+                <p>
+                  It is a long established fact that a reader will be <br />
+                  distracted by the readable content of a page.
+                </p>
+              </div>
+              <div class="hotelcart">
+                <h5>Parking Space <img src="img/Group (5).png" alt="" /></h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the <br />
+                  printing and typesetting industry.
+                </p>
+              </div>
+              <div class="hotelcart">
+                <h5>Room Services <img src="img/Group (6).png" alt="" /></h5>
+                <p>
+                  It is a long established fact that a reader will be <br />
+                  distracted by the readable content of a page.
+                </p>
+              </div>
+            </div>
+            <div class="hotelcarts2">
+              <div class="hotelcart">
+                <h5>Swimming Pool <img src="img/Vector (12).png" alt="" /></h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the <br />
+                  printing and typesetting industry.
+                </p>
+              </div>
+              <div class="hotelcart">
+                <h5>Fibre Internet <img src="img/Group (8).png" alt="" /></h5>
+                <p>
+                  It is a long established fact that a reader will be <br />
+                  distracted by the readable content of a page.
+                </p>
+              </div>
+              <div class="hotelcart">
+                <h5>Breakfast <img src="img/Group (9).png" alt="" /></h5>
+                <p>
+                  Lorem Ipsum is simply dummy text of the <br />
+                  printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="number">
+            <div class="numbox">
+              <p>302 +</p>
+              <p>Room & Suites</p>
+            </div>
+            <div class="numbox">
+              <p>25</p>
+              <p>Restaurant</p>
+            </div>
+            <div class="numbox">
+              <p>510+</p>
+              <p>Exceptional Food</p>
+            </div>
+            <div class="numbox">
+              <p>65</p>
+              <p>Destination</p>
+            </div>
+          </div>
+        </div>
+        <div class="history">
+          <div class="historytitle">
+            <h4>Discover Our History</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and <br />
+              typesetting industry. Lorem Ipsum has been the industry's <br />
+              standard dummy.
+            </p>
+            <p>
+              There are many variations of passages of Lorem Ipsum <br />
+              available, but the majority have suffered alteration in some
+              <br />
+              form, by injected humour, or randomised words which don't <br />
+              look even slightly believable.
+            </p>
+            <div class="habox">
+              <a href="#">Explore More</a>
+              <div class="vidbox2">
+                <img src="img/Vector (10).png" alt="" />
+                <p>Watch video</p>
+              </div>
+            </div>
+          </div>
+          <video src="IMG_7071.MP4" autoplay loop></video>
+        </div>
+        <div class="customers">
+          <h4>Our Happy Customers</h4>
+          <p>Know about our clients, we are a woldwide corporate brand</p>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="picture">
+                  <img
+                    src="img/jorge-salvador-iGzHMzRZjRs-unsplash-removebg-preview 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <p>Wade Warren</p>
+                  <p>Louis Vuitton</p>
+                </div>
+                <p>Necessary to deliver white glove,</p>
+                <p>fully managed campaigns that surpass</p>
+                <p>industry benchmarks.Take your career</p>
+                <p>to next level.</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="picture">
+                  <img
+                    src="img/vince-fleming-j3lf-Jn6deo-unsplash-removebg-preview 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <p>Albert Florise</p>
+                  <p>Nintendo</p>
+                </div>
+                <p>Necessary to deliver white glove,</p>
+                <p>fully managed campaigns that surpass</p>
+                <p>industry benchmarks.Take your career</p>
+                <p>to next level.</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="picture">
+                  <img
+                    src="img/vince-fleming-_THUISs23CI-unsplash-removebg-preview 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <p>Jenny Wilson</p>
+                  <p>Bank of America</p>
+                </div>
+                <p>Necessary to deliver white glove,</p>
+                <p>fully managed campaigns that surpass</p>
+                <p>industry benchmarks.Take your career</p>
+                <p>to next level.</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="picture">
+                  <img
+                    src="img/jorge-salvador-iGzHMzRZjRs-unsplash-removebg-preview 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <p>Wade Warren</p>
+                  <p>Louis Vuitton</p>
+                </div>
+                <p>Necessary to deliver white glove,</p>
+                <p>fully managed campaigns that surpass</p>
+                <p>industry benchmarks.Take your career</p>
+                <p>to next level.</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="picture">
+                  <img
+                    src="img/jorge-salvador-iGzHMzRZjRs-unsplash-removebg-preview 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <p>Wade Warren</p>
+                  <p>Louis Vuitton</p>
+                </div>
+                <p>Necessary to deliver white glove,</p>
+                <p>fully managed campaigns that surpass</p>
+                <p>industry benchmarks.Take your career</p>
+                <p>to next level.</p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="news">
+          <p>HOTEL BLOG</p>
+          <h4>Our News</h4>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sw">
+                <img
+                  src="img/gerson-repreza-CepDpEiALqM-unsplash 1 (1).png"
+                  alt=""
+                  class="img"
+                />
+                <div class="tc">
+                  <p><img src="img/Group (11).png" alt="" /> Travel</p>
+                  <p><img src="img/Group (12).png" alt="" /> 2 Comment</p>
+                </div>
+                <h6>How To Travel With Map</h6>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <p>of the printing and typesetting industry.</p>
+                <a href="">Read More<img src="img/Group (10).png" alt="" /></a>
+              </div>
+              <div class="swiper-slide sw">
+                <img src="img/house-isolated-field 1.png" alt="" class="img" />
+                <div class="tc">
+                  <p><img src="img/Group (11).png" alt="" /> Travel</p>
+                  <p><img src="img/Group (12).png" alt="" /> 2 Comment</p>
+                </div>
+                <h6>Single Contrast Room</h6>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <p>of the printing and typesetting industry.</p>
+                <a href="">Read More<img src="img/Group (10).png" alt="" /></a>
+              </div>
+              <div class="swiper-slide sw">
+                <img
+                  src="img/chris-barbalis-IQMG9KbT4yE-unsplash 1.png"
+                  alt=""
+                  class="img"
+                />
+                <div class="tc">
+                  <p><img src="img/Group (11).png" alt="" /> Travel</p>
+                  <p><img src="img/Group (12).png" alt="" /> 2 Comment</p>
+                </div>
+                <h6>Luxery Twin Room</h6>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <p>of the printing and typesetting industry.</p>
+                <a href="">Read More<img src="img/Group (10).png" alt="" /></a>
+              </div>
+              <div class="swiper-slide sw">
+                <img
+                  src="img/gerson-repreza-CepDpEiALqM-unsplash 1 (1).png"
+                  alt=""
+                  class="img"
+                />
+                <div class="tc">
+                  <p><img src="img/Group (11).png" alt="" /> Travel</p>
+                  <p><img src="img/Group (12).png" alt="" /> 2 Comment</p>
+                </div>
+                <h6>How To Travel With Map</h6>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <p>of the printing and typesetting industry.</p>
+                <a href="">Read More<img src="img/Group (10).png" alt="" /></a>
+              </div>
+              <div class="swiper-slide sw">
+                <img
+                  src="img/gerson-repreza-CepDpEiALqM-unsplash 1 (1).png"
+                  alt=""
+                  class="img"
+                />
+                <div class="tc">
+                  <p><img src="img/Group (11).png" alt="" /> Travel</p>
+                  <p><img src="img/Group (12).png" alt="" /> 2 Comment</p>
+                </div>
+                <h6>How To Travel With Map</h6>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <p>of the printing and typesetting industry.</p>
+                <a href="">Read More<img src="img/Group (10).png" alt="" /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="signup">
+          <p>Stay in Touch</p>
+          <h3>Signup to receive news and</h3>
+          <h3>updates from our hotel.</h3>
+          <form action="">
+            <input
+              type="search"
+              placeholder="Enter Your Email Address"
+              class="search"
+            />
+            <input type="submit" value="subscribe" class="submit2" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foothotel">
+        <div class="fth">
+          <h5 class="footlogo"><img src="img/Group 118.png" alt="" /> HOTEL</h5>
+          <p class="itawa">Itawa is a responsive real estate landing page</p>
+          <p>template.Itawa is a landing page template.Itawa</p>
+          <p>template.</p>
+        </div>
+        <div class="fth f2">
+          <h6>Contact Us</h6>
+          <p>
+            <img src="img/Group (13).png" alt="" />123 Business Centre London
+            SW1A 1AA
+          </p>
+          <p><img src="img/Vector (14).png" alt="" />+1 0000 000 00</p>
+          <p><img src="img/Vector (15).png" alt="" />info@businessname.com</p>
+        </div>
+        <div class="fth f3">
+          <h6>Follow Us</h6>
+          <div class="program">
+            <a href="#"><img src="img/Vector (16).png" alt="" /></a>
+            <a href="#"><img src="img/Vector (17).png" alt="" /></a>
+            <a href="#"><img src="img/Vector (18).png" alt="" /></a>
+          </div>
+          <p>
+            Itawa is a responsive real estate landing page template.Itawa is a
+            landing page template.Itawa template.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="official">
+          <p>©HOTEL Official 2022</p>
+        </div>
+        <div class="privacy">
+          <a href="">Privacy policy </a>
+          <a href=""> Cookies</a>
+          <a href="">Terms of service</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
